@@ -30,9 +30,9 @@ console.log(text);
 expect(text).toBe('Please fill out this field.'); }); // Fill in the form fields 
 console.log("Filling in the form fields..."); 
 await name.fill("Ramesh"); 
-await email.fill("r_ramesh@persistent.com"); 
-await password.fill("admin@1234"); 
-await company.fill("PSL"); 
+await email.fill("Demo@yahoo.com"); 
+await password.fill("TestDemo"); 
+await company.fill("Test company"); 
 await webSiteName.fill("website.com"); 
 await page.selectOption("//select[@name='country']", { label: "United States" }); // Select by label 
 await city.fill("Texas"); 
